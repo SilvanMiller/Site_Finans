@@ -1,6 +1,7 @@
 .corpo {
     font-family: 'Roboto Mono', monospace;
     background: #ffc107;
+    text-align: center;
 }
 
 #container {
@@ -14,6 +15,7 @@
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     text-align: center;
+    border: 1px solid red;
 }
 
 #container img {
@@ -21,6 +23,13 @@
     height: 70px;
     margin-top: -40px;
     margin-bottom: 10px;
+}
+
+.mulher {
+    margin: 10px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
 }
 
 p {

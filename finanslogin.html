@@ -17,35 +17,50 @@
 
     <link rel="stylesheet" href="css/finaslogin.css">
 
+
     <title>Finans_Login</title>
+    <link rel="icon" href="img/dollar-sign-solid.svg">
 </head>
 
 <body>
 
     <body class="corpo">
         <!-- Inicio container -->
-        <div id="container">
-            <img src="img/logo.png">
 
-            <form>
-                <div class="form-floating m-3">
-                    <input type="email" class="form-control" id="entradaFlutuante" placeholder="name@example.com">
-                    <label for="entradaFlutuante">Digite seu e-mail </label>
+        <section class="row">
+            <div class="col-md-6 d-flex">
+                <div class="align-self-center">
+
+                    <div id="container">
+                        <img src="img/logo.png">
+
+                        <form>
+                            <div class="form-floating m-12">
+                                <input type="email" class="form-control" id="entradaFlutuante" placeholder="name@example.com">
+                                <label for="entradaFlutuante">Digite seu e-mail </label>
+                            </div>
+                            <div class="form-floating me-3 ms-3">
+                                <input type="password" class="form-control" id="senhaflutuante" placeholder="Password">
+                                <label for="senhaflutuante">Senha</label>
+                            </div>
+
+                            <br>
+
+                            <div class="d-grid gap-0 me-3 ms-3">
+                                <button class="btn btn-outline-success" type="button" value="Input Submit">Logar</button>
+                            </div>
+
+                        </form>
+                    </div>
                 </div>
-                <div class="form-floating me-3 ms-3">
-                    <input type="password" class="form-control" id="senhaflutuante" placeholder="Password">
-                    <label for="senhaflutuante">Senha</label>
-                </div>
 
-                <br>
+                <div class="col-md-6 d-none d-md-block mulher"><img src="img/capa-mulher.png"></div>
 
-                <div class="d-grid gap-0 me-3 ms-3">
-                    <button class="btn btn-outline-success" type="button" value="Input Submit">Logar</button>
-                </div>
-            </form>
-
-        </div>
+            </div>
+        </section>
         <!-- fim do container -->
+
+
 
         <p>&copy;Copyright 2021 by Silvan Miller</p>
 
