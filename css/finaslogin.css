@@ -56,3 +56,12 @@ p a {
 p a:hover {
     color: #ffc107;
 }
+
+.info-icones a {
+    color: #198754;
+    padding: 0 1.2rem;
+}
+
+.info-icones a:hover {
+    color: #ffc107
+}
